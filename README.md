@@ -1,5 +1,6 @@
 # TAPS
 TAPS: A Trace-Driven Dataset for QoE-Aware Adaptive Point Cloud Streaming
+The dataset is available at OneDrive: https://1drv.ms/f/c/3dbe3858aa085846/IgBPKYnxuv5mRJs4TmJ8AvPJAd4iNPzlwE7pkr3zF29HA34?e=qD9pqj
 
 ## Overview
 
@@ -30,33 +31,31 @@ Unlike conventional point cloud quality datasets, PCS provides an **end-to-end s
 
 | Attribute | Value |
 |----------|------|
-| #Sequences | XX |
-| #Frames per Sequence | XXX |
+| #Sequences | 16 |
+| #Frames per Sequence | 250 / 300|
 | #Representations | 10 |
 | #Bandwidth Profiles | 12 |
-| #ABR Algorithms | X |
-| #Display Resolutions | 720P, 1080P |
-| #Streaming Sessions | XXXX |
-| #Subjective Scores | XXXX |
+| #ABR Algorithms | 3 |
+| #Display Resolutions | 720P, 1080P, 2k, 4k |
+| #Streaming Sessions | 864 |
+| #Subjective Scores | 3456 |
 | Point Cloud Format | `.ply` |
 | Bitstream Format | `.drc` |
-| Frame Rate | XX fps |
-| Chunk Duration | X second |
-
-*(Replace XX with actual numbers)*
+| Frame Rate | 25 fps /30 fps |
+| Chunk Duration | 1 second |
 
 ---
 
 ## Dataset Pipeline
 
-The PCS dataset is generated through the following end-to-end pipeline:
+The TAPS dataset is generated through the following end-to-end pipeline:
 Raw Point Cloud Sequences
 ↓
 Spatial Downsampling
 ↓
 Compression (Draco)
 ↓
-ABR Streaming Simulation
+ABR Streaming
 ↓
 Rendering
 ↓
