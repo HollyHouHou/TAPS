@@ -84,19 +84,19 @@ The dataset contains multiple dimensions to simulate realistic streaming environ
 
 ### Representation
 
-Each sequence is spatially downsampled into: R1 – R10 
-Sampling ratios: 10% → 100%
+- Each sequence is spatially downsampled into: R1 – R10 
+- Sampling ratios: 10% → 100%
 ---
 ### Bandwidth Profiles
-The dataset includes:12 bandwidth profiles
-Each profile simulates realistic network fluctuations.
+- The dataset includes:12 bandwidth profiles
+- Each profile simulates realistic network fluctuations.
 ---
 
 ### ABR Strategies
-Example:
-BB (Buffer-Based)
-MPC (Model Predictive Control)
-RL-based ABR
+**Example**:
+- BB (Buffer-Based)
+- RB (Rate-Based)
+- RL-based ABR
 
 
 ---
