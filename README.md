@@ -82,5 +82,3 @@ Each streaming session is evaluated using:
 - Playback Stalling
 - Overall QoE
 
-MOS range: 1-10
-
